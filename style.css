@@ -440,6 +440,9 @@ footer > span {
     position: relative;
     z-index: -1;
   }
+  #video {
+    width: 100%;
+  }
 }
 
 @media (max-width: 550px) {
