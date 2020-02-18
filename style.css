@@ -440,14 +440,11 @@ footer > span {
     position: relative;
     z-index: -1;
   }
-  #how-it-works {
-    width: 100%;
-  }
 }
 
 @media (max-width: 550px) {
   #features .icon {
-
+    display: none;
   }
 }
 
