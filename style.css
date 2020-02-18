@@ -396,6 +396,52 @@ footer > span {
 
 /* Media Friendly */
 
+@media only screen and (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+  #hero, .container, footer {
+    padding-top: 75px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+  }
+  .sml-head {
+    grid-area: header1;
+  }
+  .med-head {
+    grid-area: header2;
+  }
+  .lrg-head {
+    grid-area: header3;
+  }
+  .styles-grid {
+    display: grid;
+    grid-template-areas:
+      'header1'
+      'slide1'
+      'footer1'
+      'header2'
+      'slide2'
+      'footer2'
+      'header3'
+      'slide3'
+      'footer3';
+    grid-row-gap: 20px;
+    justify-items: center;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: -1;
+  }
+}
+
 @media (max-width: 550px) {
   #features .icon {
     display: none;
