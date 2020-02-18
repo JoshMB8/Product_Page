@@ -440,14 +440,14 @@ footer > span {
     position: relative;
     z-index: -1;
   }
-  #video {
-    width: 400px;
+  #how-it-works {
+    width: 100%;
   }
 }
 
 @media (max-width: 550px) {
   #features .icon {
-    display: none;
+
   }
 }
 
